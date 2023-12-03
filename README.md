@@ -1,1 +1,1 @@
-# Pete-Thinkful-redesign
+# starter-pete-thinkful-portfolio
