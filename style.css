@@ -1,25 +1,32 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
-*{
-  box-sizing: border-box;
-
-}
-
 body {
   background-color: #eae2b7;
   color: #003049;
   font-family: "Source Sans Pro", Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 70px;
-  padding-right: 70px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  justify-content: space-around;
 }
 
 .container1 {
   display: flex;
-  justify-content: space-evenly; 
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .container1 p{
   font-size: 16px;
+}
+.container1 div{
+  margin-left: 15px;
+  
+}
+.container1 h3{
+  text-align: center;
 }
 .image-circle {
   border: 2px solid #003049;
@@ -33,54 +40,59 @@ h3 {
 }
 .h2-text {
   text-align: center;
+  margin-top: 10%
 }
 
  .container2{
+ width: fit-content;
  margin-top: auto;
  margin-left: auto;
  margin-right: auto;
- text-align: left;
 }
 .container2 p{
   font-size: 16px;
+  text-align: left;
 }
 .container2 h3{
   text-align: center;
+  margin-top: 10%
 }
 
 .container3{
-  align-content: center;
-  padding-left: 5px;
-  padding-right: 5px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .container3 p{
-  text-align: center;
-}
-.container3 li{
   text-align: left;
+  width: 80%;
+}
+.container3 ol{
+  text-align: left;
+  width: 80%;
 }
 /* Header */
 .header-container {
   display:flex;
   text-align: start;
-  margin-top: auto;
+  margin-top: 5%;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
 
-
 /* Containers */
 
 .box {
  display:flex;
-  margin-top:auto;
-  column-gap: 5px;
+  justify-content: space-around;
+  align-items: center;
 }
 .box div{
   text-align: center;
-
 }
 
 /* Paragraphs */
@@ -124,5 +136,6 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+  max-width: 1400px;
 }
 
